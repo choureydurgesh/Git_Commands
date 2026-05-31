@@ -1,0 +1,43 @@
+Level 1: The Basics (Saving Your Work)
+
+These are your daily essentials for local version control.
+
+    #git init – Turn any local folder into a brand-new Git repository.
+
+    #git status – The ultimate sanity check. See what files are modified, untracked, or staged.
+
+    #git add . – Stage all your changes, preparing them to be snapshotted.
+
+    #git commit -m "feat: add login screen" – Lock in your changes with a clear, descriptive message.
+
+    #git log --oneline – View a clean, condensed history of your past commits.
+
+
+Level 2: Intermediate (Collaboration & Branching)
+This is how you work with a team without stepping on each other's toes.
+
+    #git branch feature/payment – Create an isolated sandbox to work on a new feature.
+
+    #git switch feature/payment – Jump safely between branches (the modern, safer alternative to git checkout).
+
+    #git merge feature/payment – Combine your completed feature branch back into your main branch.
+
+    #git remote add origin <url> – Link your local machine repository to GitHub or GitLab.
+
+    #git push -u origin main – Push your code up to the cloud and set your default upstream tracking.
+
+    #git pull – Fetch the latest updates from your team and merge them into your current branch instantly.
+
+
+Level 3: Advanced (The Time Machine & Rescue Kit)
+When things go wrong or your commit history gets messy, these are the commands that will save your afternoon.
+
+    #git stash / git stash pop – Stash your uncommitted work to a temporary shelf so you can switch branches, then grab it back later.
+
+    #git cherry-pick <commit-hash> – Steak a specific commit from another branch and apply it to your current one without merging the whole branch.
+
+    #git reset --soft HEAD~1 – Undo your very last commit but keep your changes staged in your code editor. Perfect for fixing typos!
+
+    #git revert <commit-hash> – Create a brand new commit that completely undoes an old, broken commit. (The safest way to fix production bugs).
+
+    #git rebase -i HEAD~3 – Interactive Rebase. Clean up your history by rewriting, combining (squashing), or deleting your last 3 local commits before pushing to code review.
