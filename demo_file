@@ -1,1 +1,8 @@
-test file
+Created Github integration for Jira 
+
+- Go to jira
+- Go to space and select your space 
+- Go to the code tab
+- Connect Github
+- Give access to the selected repositories
+- You will be able to integarate Jira and Github
